@@ -223,7 +223,7 @@ nav .menu{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 .image {
     width: 155px;
@@ -232,11 +232,13 @@ nav .menu{
     background-color: #fff;
     padding-bottom: 90px;
 }
-
+.no{
+    display: none;
+}
 .image img {
-    width: 60%;
+    width: 80%;
     height: 15vh;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .image h3 {
      margin:3px;
@@ -271,3 +273,4 @@ nav .menu{
 }
 
 }
+
