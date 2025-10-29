@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -66,7 +72,8 @@ nav .menu {
 }
 
 .tx p {
-    font-size: 10px;
+
+    font-size: 11px;
 }
 
 .tx button {
@@ -78,9 +85,11 @@ nav .menu {
     border: none;
     border-radius: 10px;
 }
-.imge img{
+
+.imge img {
     width: 500px;
 }
+
 .center {
     height: 12vh;
     width: 12%;
@@ -94,15 +103,21 @@ nav .menu {
 }
 
 .tox {
+
     width: 200px;
-    height: 150px;
+    height: 30vh;
     overflow: hidden;
     border-radius: 12px;
 }
 
+.im h2 {
+    padding: 3px;
+    text-align: center;
+}
+
 .im img {
     width: 100%;
-    height: 100%;
+    height: 25vh;
     display: block;
     object-fit: cover;
 }
@@ -120,26 +135,26 @@ nav .menu {
     width: 220px;
     height: 29vh;
     border-radius: 12px;
-    background-color: rgb(207, 201, 201);
-    
+    /* background-color: rgb(207, 201, 201); */
 }
 
 .image img {
-    width: 70%;
-    height: 25vh;
-    padding-left: 30px;
+    width: 80%;
+    height: 27vh;
+    /* padding-left: 0px; */
     margin: 10px;
-    
+
 }
 
 .boc {
     display: flex;
-    gap: 60px;
+    gap: 50px;
     justify-content: center;
+    padding-bottom: 150px;
 }
 
 .image h3 {
-     margin:3px;
+    margin: 3px;
     font-size: 13px;
 }
 
@@ -149,7 +164,7 @@ nav .menu {
 }
 
 .gos h5 {
-    margin:3px;
+    margin: 3px;
     color: #0a8f00;
     font-size: 20px;
 }
@@ -159,7 +174,7 @@ nav .menu {
     background-color: #ffd84d;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .p p {
@@ -171,106 +186,247 @@ nav .menu {
     color: #0a5f00;
 }
 
-@media only screen and (max-width:430px){
+@media only screen and (max-width:430px) {
     html {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
 
-    .tx{
+    .tx {
         padding: 12px;
     }
-.tx h1 {
-    width: 200px;
-    font-size: 25px;
-}
-.tx h2{
-    font-size: 18px;
+
+    .tx h1 {
+        width: 200px;
+        font-size: 25px;
+    }
+
+    .tx h2 {
+        font-size: 18px;
+    }
+
+    .imge img {
+        width: 170px;
+    }
+
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .menu {
+        height: 4%;
+
+
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .im {
+        padding-left: 12px;
+    }
+
+    .im h2 {
+        padding: 2px;
+        text-align: center;
+        font-size: 12px;
+        padding-right: 12px;
+    }
+
+    .im img {
+        border-radius: 12px;
+        width: 80%;
+        height: 10vh;
+    }
+
+    .cen {
+        gap: 32px;
+    }
+
+    .tox {
+        height: 100px;
+    }
+
+    .boc {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .image {
+        width: 155px;
+        height: 25vh;
+        border-radius: 12px;
+        background-color: #fff;
+        padding-bottom: 90px;
+    }
+
+    .no {
+        display: none;
+    }
+
+    .image img {
+        width: 80%;
+        height: 20vh;
+        padding-left: 10px;
+    }
+
+    .cob img {
+        width: 90%;
+        height: 15vh;
+    }
+
+    .image h3 {
+        margin: 3px;
+        font-size: 10px;
+    }
+
+    .gos {
+        background-color: #fff;
+        height: 12vh;
+    }
+
+    .gos h5 {
+        margin: 3px;
+        color: #0a8f00;
+        font-size: 13px;
+    }
 }
 
-.imge img{
-    width: 160px;
-    padding-left:9px;
-}
-.box {
+.act {
     display: flex;
     justify-content: space-between;
 }
-nav .menu{
-    height: 7%;
-    
-    
-}
-.menu ul {
-    display: none;
-}
-.im{
-    padding-left: 12px;
-}
-.im img{
-    border-radius: 12px;
-    width: 80%;
-    height: 10vh;
-}
-.cen{
-    gap: 32px;
-}
-.tox{
-    height: 100px;
-}
-.boc{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    padding-left: 30px;
-}
-.image {
-    width: 155px;
-    height: 25vh;
-    border-radius: 12px;
-    background-color: #fff;
-    padding-bottom: 90px;
-}
-.no{
-    display: none;
-}
-.image img {
-    width: 80%;
-    height: 15vh;
-    padding-left: 10px;
-}
-.image h3 {
-     margin:3px;
-    font-size: 11px;
+
+.sp {
+    width: 100%;
+    /* aspect ratio control: use height in vh or padding-top trick */
+    height: 220px;
+    /* mobile default height - adjust */
+    background-image: url('https://img.freepik.com/free-psd/sport-template-design_23-2151455032.jpg');
+    background-position: center center;
+    /* center the important area */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.gos {
+.sp img {
+    width: 100%;
+    height: 40vh;
+}
+
+.act img {
+    width: 20%;
+
+}
+
+.act2 img {
+    width: 29%;
+}
+
+/* .upt{
+    position: absolute;
+    top: 122%;
+} */
+.bos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.imagee {
+    width: 220px;
+    height: 29vh;
+    border-radius: 12px;
+}
+
+.imagee img {
+    width: 100%;
+
+    /* padding-left: 0px; */
+    margin: 10px;
+}
+
+.imagee h3 {
+    margin: 3px;
+    font-size: 13px;
+}
+
+.goss {
     background-color: #fff;
     height: 12vh;
 }
 
-.gos h5 {
-    margin:3px;
+.goss h5 {
+    margin: 3px;
     color: #0a8f00;
-    font-size: 13px;
+    font-size: 20px;
 }
 
-.p {
+.pp {
     width: 100%;
     background-color: #ffd84d;
     display: flex;
     justify-content: center;
-    
 }
-.p p {
+
+.pp p {
     text-decoration: line-through;
     color: #666;
 }
 
-.p h2 {
+.pp h2 {
     color: #0a5f00;
 }
 
-}
 
+
+@media only screen and (max-width:430px) {
+    .sp img {
+        position: relative;
+        width: 120%;
+        height: auto;
+    }
+
+    .imagee {
+        width: 60px;
+        height: 29vh;
+        border-radius: 12px;
+    }
+
+    .imagee img {
+        width: 90%;
+    }
+
+    .goss h3 {
+        font-size: 6px;
+    }
+
+    .pp {
+        width: 100%;
+        background-color: #ffd84d;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pp p {
+        font-size: 6px;
+    }
+
+    .pp h2 {
+        font-size: 10px;
+    }
+
+    .goss h5 {
+        font-size: 10px;
+    }
+
+    .op h3 {
+        font-size: 6px;
+    }
+}
