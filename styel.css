@@ -407,6 +407,9 @@ nav .menu {
         margin-left: -9px;
     }
     .goss h3 {
+          white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         width: 60px;
         font-size: 12px;
     }
@@ -439,12 +442,6 @@ nav .menu {
         font-size: 12px;
     }
 
-    .short-text {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 120px;
-        display: block;
-        line-height: 1.4;
-    }
+  
 }
+
