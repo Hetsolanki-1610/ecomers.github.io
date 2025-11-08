@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <h1 class="txt">
+                    <span class="black">Call</span><span class="blue">Shop</span>
+                </h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contect</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="box">
+            <div class="tx">
+                <p>SPRING/SUMMER COLLECTION 2017</p>
+                <h1>Get up to 30% off</h1>
+                <h2>New Arrivals</h2>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="imge">
+                <img src="https://cbx-prod.b-cdn.net/COLOURBOX62840802.jpg?width=800&height=800&quality=70" alt="" >
+            </div>
+        </div>
+
+    </section>
+<div id="adminPanel"
+  style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
+  background:white; padding:20px; border-radius:10px; box-shadow:0 0 20px rgba(0,0,0,0.4); z-index:9999; width:300px;">
+  <h3 style="text-align:center;">🛠 Admin Price Editor</h3>
+  <label>Product Name:</label>
+  <input type="text" id="prodName" placeholder="Enter Product Name" style="width:100%; margin:5px 0;">
+  <label>New Price (₹):</label>
+  <input type="number" id="newPrice" placeholder="Enter New Price" style="width:100%; margin:5px 0;">
+  <button id="savePrice" style="background:blue; color:white; width:100%; padding:6px; border:none; border-radius:5px;">Save Price</button>
+  <button onclick="closeAdmin()" style="margin-top:10px; width:100%; padding:6px; background:gray; color:white; border:none; border-radius:5px;">Close</button>
+</div>
+
+<button id="adminLoginBtn" style="position:fixed; bottom:20px; right:20px; background:black; color:white; border:none; padding:10px 15px; border-radius:8px; cursor:pointer; z-index:999;">
+  Admin
+</button>
+
+
+
+    <section>
+        <div class="cen">
+            <div class="tox">
+                <div class="im">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/watch/0/q/f/-original-imahfspuf3xkphuf.jpeg?q=70"
+                        alt="" class="imageReval">
+                    <h2>Watche</h2>
+                </div>
+            </div>
+            <div class="tox">
+                <div class="im">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cTOoJF9bxEYWvrE93DCpyFQPFnnQHhUm3w&s"
+                        alt="" class="imageReval">
+                    <h2>Goggles</h2>
+                </div>
+            </div>
+            <div class="tox">
+                <div class="im">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKgXnHXg1jcry4s1VB7t1pzzbhdO4bXPs5Q&s"
+                        alt="" class="imageReval">
+                    <h2>Headphones</h2>
+                </div>
+            </div>
+            <div class="tox">
+                <div class="im">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzh0eEiqQr3PGYtrrQpbi5n264be_HQlzL2w&s"
+                        alt="" class="imageReval">
+                    <h2>Phones</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="cent">
+        <h2>Electronics</h2>
+    </div>
+
+    <section>
+        <div class="boc">
+            <div class="image">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/iron/t/z/a/mx-45-steam-iron-bajaj-original-imah4ej88gxwfws8.jpeg?q=70"
+                    alt="" class="boxReval"  onclick="window.location.href='sel.html'">
+                <div class="gos">
+                    <h3>BAJAJ MX 45 Steam iron 2000 W Steam Iron </h3>
+                    <h3>(Black & Grey)</h3>
+                    <h5>59% off</h5>
+                    <div class="p">
+                        <p>₹3,800</p>
+                        <h2>₹1,529</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/induction-cook-top/o/z/9/-original-imahf77npghhphbh.jpeg?q=70"
+                    alt="" class="boxReval">
+                <div class="gos">
+                    <h3>PHILIPS 2100 W Induction Cooktop Push Button</h3>
+                    <h3> (Black, HD4928/01)</h3>
+                    <h5>58% off</h5>
+                    <div class="p">
+                        <p>₹5,995</p>
+                        <h2>₹2,499</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/8/h/2/-original-imahdxp7yggzgwnv.jpeg?q=70"
+                    alt="" class="boxReval">
+                <div class="gos">
+                    <h3>Sansui Plus 500 W Juicer Mixer Grinder<h3>
+                            <h3>(black,blue)</h3>
+                            <h5>69% off</h5>
+                            <div class="p">
+                                <p>₹3,599</p>
+                                <h2>₹1,099</h2>
+                            </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/s/i/1/nutri-nutripro-original-imahccf5qyej9nyh.jpeg?q=70&crop=false"
+                    alt="" class="boxReval">
+                <div class="gos">
+                    <h3>NutriPro Blender 500 W Juicer Mixer Grinder </h3>
+                    <h3>(Nutri| 3 Jars| Silver)</h3>
+                    <h5>73% off</h5>
+                    <div class="p">
+                        <p>₹6,000</p>
+                        <h2>₹1,588</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="image no">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/otg-new/h/b/s/-original-imagkquzgh2kvthy.jpeg?q=70"
+                    alt="" class="boxReval">
+                <div class="gos">
+                    <h3>MarQ by Flipkart 26-Litre with 4 Skewers and Inbuilt light..</h3>
+                    <h3>(black,blue)</h3>
+                    <h5>55% off</h5>
+                    <div class="p">
+                        <p>₹5,599</p>
+                        <h2>₹2,499</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product list 2 -->
+    <section>
+        <div class="boc ">
+            <div class="image cob">
+                <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/t/w/t/-original-imahfugqyvv6ktc6.jpeg?q=70"
+                    alt="" class="bocReval">
+                <div class="gos">
+                    <h3>Coocaa Y74 Plus 138 cm (55 inch) Ultra HD</h3>
+                    <h3>Smart Google TV 2025 </h3>
+                    <h5>60% off</h5>
+                    <div class="p">
+                        <p>₹54,999</p>
+                        <h2>₹21,499</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="image cob">
+                <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/1/y/3/-original-imahgfdyaaghwzef.jpeg?q=70"
+                    alt="" class="bocReval">
+                <div class="gos">
+                    <h3>Acer Aspire 7 Intel Core i5 13th Gen 13420H</h3>
+                    <h3>6 GB Graphics</h3>
+                    <h5>41% off</h5>
+                    <div class="p">
+                        <p>₹89,999</p>
+                        <h2>₹52,990</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="image cob">
+                <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/p/r/n/-original-imahbzz49skh28tk.jpeg?q=70"
+                    alt="" class="bocReval">
+                <div class="gos">
+                    <h3>REDMI Pad Pro 5G 8 GB RAM 128 GB ROM 12.1 inch <h3>
+                            <h3>with Wi-Fi+5G Tablet(Graphite Grey)</h3>
+                            <h5>20% off
+                            </h5>
+                            <div class="p">
+                                <p>₹26,999</p>
+                                <h2>₹21,599</h2>
+                            </div>
+                </div>
+            </div>
+            <div class="image cob">
+                <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/c/h/w/-original-imahfdyfjzk2zwf9.jpeg?q=70"
+                    alt="" class="bocReval">
+                <div class="gos">
+                    <h3>NutriPro Blender 500 W Juicer Mixer Grinder </h3>
+                    <h3>(Nutri| 3 Jars| Silver)</h3>
+                    <h5>73% off</h5>
+                    <div class="p">
+                        <p>₹6,000</p>
+                        <h2>₹1,588</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="image no">
+                <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/otg-new/h/b/s/-original-imagkquzgh2kvthy.jpeg?q=70"
+                    alt="" class="bocReval">
+                <div class="gos">
+                    <h3>MarQ by Flipkart 26-Litre with 4 Skewers and Inbuilt light..</h3>
+                    <h3>(black,blue)</h3>
+                    <h5>55% off</h5>
+                    <div class="p">
+                        <p>₹5,599</p>
+                        <h2>₹2,499</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sp">
+        <!-- <img src="https://img.freepik.com/free-psd/sport-template-design_23-2151455032.jpg" alt=""> -->
+    </div>
+    <div class="sport">
+        <div class="act">
+            <img src="https://images.meesho.com/images/products/417306053/iadsd_512.webp" alt="">
+            <section >
+                <div class="bos">
+                    <div class="imagee cobb">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwVtZFGgV-QjPR2kcfCk0nTFOhPuRsWwM-mA&s"
+                            alt="" class="bocReval">
+                        <div class="goss ">
+                            <h3>Blue Solid Men Running Sport Shoes for Men</h3>
+                            <h3>(Black,White,Blue) Size:- (9 , 10 , 11 , 12) & all Size avilbal</h3>
+                            <h5>0% off</h5>
+                            <div class="pp">
+                                <p>₹0</p>
+                                <h2>₹362</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagee cobb op">
+                        <img src="https://m.media-amazon.com/images/I/41k8ID4Z5yL._SY300_SX300_QL70_FMwebp_.jpg "
+                            alt="" class="bocReval">
+                        <div class="goss">
+                            <h3 >CHUBS Fitness Series PUSH YOUR LIMITS Spring Shaker With Mixer, For</h3>
+                            <h3> Men And Women (BLACK)..</h3>
+                            <h5>80% off</h5>
+                            <div class="pp">
+                                <p>₹499</p>
+                                <h2>₹99.80</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagee cobb">
+                        <img src="https://m.media-amazon.com/images/I/81O0l6eSqAL._SX569_.jpg"
+                            alt="" class="bocReval">
+                        <div class="goss">
+                            <h3 class="short-text">Rubber Coated Hexa Dumbbell Set (7.5 kg Pair) | Professional Exercise Dumbbells</h3>
+                            <h3>for Men & Women (Metal build) </h3>
+                            <h5>78% off</h5>
+                            <div class="pp">
+                                <p>₹9,999</p>
+                                <h2>₹2,194</h2>
+                            </div>
+                        </div>
+            </section>
+            
+            
+            <img src="https://d1it09c4puycyh.cloudfront.net/920x1300/catalog/product/8/9/8907813538077_1.JPG" alt="">
+        </div>
+        
+
+    </div>
+
+
+
+    <section>
+        <div class="ofe">
+            <div class="gmi">
+                <img width="350" src="https://img.freepik.com/free-vector/happy-diwali-sale-offer-template_1017-15771.jpg" alt="">
+            </div>
+            <div class="tt">
+                <h3>Diwali Offer</h3>
+                <p>"Celebrate this Diwali with exciting offers and up to 70% off on your favorite products — shop now and shine bright!"</p>
+            </div>
+        </div>
+    </section>
+    
+<script>
+  // Scroll hone par har image check kare
+  window.addEventListener("scroll", () => {
+    document.querySelectorAll(".imageReval, .boxReval, .bocReval").forEach(el => {
+      let top = el.getBoundingClientRect().top;
+      let height = window.innerHeight;
+
+      if (top < height - 100) {
+        el.classList.add("show");
+      }
+    });
+  });
+  // ✅ Show login prompt
+  function openAdminLogin() {
+    let pass = prompt("Enter Admin Password:");
+    if (pass === "het123") { // Change password here
+      document.getElementById("adminPanel").style.display = "block";
+    } else {
+      alert("Wrong password!");
+    }
+  }
+
+  function closeAdmin() {
+    document.getElementById("adminPanel").style.display = "none";
+  }
+
+   let adminMode = false;
+
+  // ✅ Load saved prices
+  window.addEventListener("load", () => {
+    document.querySelectorAll(".gos h2, .goss h2, .pp h2").forEach((el, index) => {
+      let saved = localStorage.getItem("price_" + index);
+      if (saved) el.textContent = saved;
+    });
+  });
+
+  // ✅ Admin login
+  document.getElementById("adminLoginBtn").addEventListener("click", () => {
+    if (!adminMode) {
+      let pass = prompt("Enter Admin Password:");
+      if (pass === "het123") {
+        adminMode = true;
+        alert("✅ Admin Mode ON\nClick on any price to edit it.");
+        enableEditing();
+      } else {
+        alert("❌ Wrong password!");
+      }
+    } else {
+      adminMode = false;
+      alert("🚫 Admin Mode OFF");
+      disableEditing();
+    }
+  });
+
+  // ✅ Enable editing mode
+  function enableEditing() {
+    document.querySelectorAll(".gos h2, .goss h2, .pp h2").forEach((el, index) => {
+      el.style.border = "1px dashed red";
+      el.style.padding = "2px 4px";
+      el.style.cursor = "pointer";
+
+      el.addEventListener("click", function editOnce() {
+        if (adminMode) {
+          let newPrice = prompt("Enter new price:", el.textContent.replace("₹", "").trim());
+          if (newPrice) {
+            el.textContent = "₹" + newPrice;
+            localStorage.setItem("price_" + index, "₹" + newPrice);
+          }
+        }
+      });
+    });
+  }
+
+  // ✅ Disable editing visuals
+  function disableEditing() {
+    document.querySelectorAll(".gos h2, .goss h2, .pp h2").forEach(el => {
+      el.style.border = "none";
+      el.style.cursor = "default";
+    });
+  }
+</script>
+</body>
+
+</html>
